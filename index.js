@@ -6,13 +6,13 @@ const digite = require('prompt-sync')({sigint:true})
  xp = parseInt(digite(" Escreve a Quantidade do nível do héroi"))  
     if( xp <= 1000){
       xp="ferro"
-}else if(xp>= 1001 && xp <= 2001){
+}else if(xp>= 1001 && xp <=2000){
       xp="Bronze"
 }else if(xp>=2001 && xp <= 6000){
       xp="Prata"
 }else if(xp>=6001 && xp <=7000){
       xp="Ouro"
-}else if(xp>=7001 && xp<=8001){
+}else if(xp>=7001 && xp<=8000){
       xp="Platina"
 }else if(xp>=8001 && xp<=9000){
       xp="Ascendente"
